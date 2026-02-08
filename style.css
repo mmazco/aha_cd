@@ -826,7 +826,6 @@ a {
   font-size: 1.1rem;
   font-weight: 300;
   color: var(--text-soft);
-  max-width: 720px;
   margin-bottom: 3rem;
   line-height: 1.7;
 }
@@ -1055,7 +1054,7 @@ a {
 .location-card h3 {
   font-family: var(--font-display);
   font-size: 1.2rem;
-  font-weight: 400;
+  font-weight: 600;
   margin-bottom: 0.25rem;
   color: var(--blue-deep);
 }
@@ -1063,21 +1062,10 @@ a {
 
 /* ---------- Contact Section ---------- */
 .section-contact {
-  text-align: center;
-}
-
-.section-contact .section-title {
-  text-align: center;
-}
-
-.section-contact .section-intro {
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .contact-grid {
   display: flex;
-  justify-content: center;
   gap: 2rem;
   flex-wrap: wrap;
 }
@@ -1085,8 +1073,8 @@ a {
 .contact-card {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  padding: 2rem 3rem;
+  align-items: flex-start;
+  padding: 2rem 3rem 2rem 0;
   background: transparent;
   border: none;
   border-radius: 0;
@@ -1305,13 +1293,13 @@ a {
   }
 
   .contact-card {
-    padding: 1rem;
+    padding: 1rem 0;
     align-items: flex-start;
   }
 
   .contact-card:last-child {
     grid-column: 1 / -1;
-    align-items: center;
+    align-items: flex-start;
   }
 
   :root {
