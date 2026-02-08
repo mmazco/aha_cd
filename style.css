@@ -1060,13 +1060,6 @@ a {
   color: var(--blue-deep);
 }
 
-.location-card p {
-  font-size: 0.8rem;
-  font-weight: 400;
-  letter-spacing: 0.03em;
-  color: var(--orange);
-  margin-bottom: 0;
-}
 
 /* ---------- Contact Section ---------- */
 .section-contact {
