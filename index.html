@@ -3,21 +3,91 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>aha.cd - digitizing cd services in Highland Park</title>
-  <meta name="description" content="we turn CDs into digital files, bundle offers now available for selected locations only.">
-  <meta property="og:title" content="aha.cd - digitizing cd services in Highland Park">
-  <meta property="og:description" content="we turn CDs into digital files, bundle offers now available for selected locations only.">
-  <meta property="og:image" content="https://ahacd.up.railway.app/assets/og-image.png">
+  <title>aha.cd — CD digitizing service in Highland Park, Eagle Rock, Glendale, Pasadena & Mount Washington</title>
+  <meta name="description" content="Local CD and DVD digitizing service in Highland Park, Mount Washington, Eagle Rock, Glendale and Pasadena. We convert your discs to digital files — home videos, music, films. Drop-off or pick-up. Starting at $25 per disc.">
+  <link rel="canonical" href="https://www.aha.cd/">
+  <meta property="og:title" content="aha.cd — CD digitizing service in Highland Park & Northeast LA">
+  <meta property="og:description" content="We turn your CDs and DVDs into digital files. Home videos, music, films — starting at $25/disc. Drop-off & pick-up in Highland Park, Mount Washington, Eagle Rock, Glendale and Pasadena.">
+  <meta property="og:url" content="https://www.aha.cd/">
+  <meta property="og:image" content="https://www.aha.cd/assets/og-image.png">
   <meta property="og:type" content="website">
+  <meta property="og:locale" content="en_US">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:image" content="https://ahacd.up.railway.app/assets/og-image.png">
+  <meta name="twitter:title" content="aha.cd — CD digitizing service in Highland Park & Northeast LA">
+  <meta name="twitter:description" content="We turn your CDs and DVDs into digital files. Home videos, music, films — starting at $25/disc. Local drop-off & pick-up.">
+  <meta name="twitter:image" content="https://www.aha.cd/assets/og-image.png">
   <meta name="theme-color" content="#F2F0E8">
+  <meta name="geo.region" content="US-CA">
+  <meta name="geo.placename" content="Highland Park, Los Angeles">
+  <meta name="geo.position" content="34.1125;-118.1931">
+  <meta name="ICBM" content="34.1125, -118.1931">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300;1,9..40,400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <link rel="icon" type="image/png" sizes="64x64" href="assets/favicon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "aha.cd",
+    "description": "Local CD and DVD digitizing service. We convert your discs to digital files — home videos, music, photo slideshows, and films. Drop-off or pick-up available.",
+    "url": "https://www.aha.cd",
+    "telephone": "+1-213-721-7598",
+    "email": "ahadotcd@gmail.com",
+    "image": "https://www.aha.cd/assets/og-image.png",
+    "priceRange": "$25-$115",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Highland Park",
+      "addressRegion": "CA",
+      "addressCountry": "US"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 34.1125,
+      "longitude": -118.1931
+    },
+    "areaServed": [
+      { "@type": "City", "name": "Highland Park, Los Angeles, CA" },
+      { "@type": "City", "name": "Mount Washington, Los Angeles, CA" },
+      { "@type": "City", "name": "Eagle Rock, Los Angeles, CA" },
+      { "@type": "City", "name": "Glendale, CA" },
+      { "@type": "City", "name": "Pasadena, CA" }
+    ],
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "CD Digitizing Services",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "name": "Single Disc",
+          "description": "Digitize 1 CD or DVD",
+          "price": "25.00",
+          "priceCurrency": "USD"
+        },
+        {
+          "@type": "Offer",
+          "name": "Time Capsule",
+          "description": "Digitize 3 CDs or DVDs",
+          "price": "70.00",
+          "priceCurrency": "USD"
+        },
+        {
+          "@type": "Offer",
+          "name": "Archive",
+          "description": "Digitize 5 CDs or DVDs",
+          "price": "115.00",
+          "priceCurrency": "USD"
+        }
+      ]
+    },
+    "sameAs": [
+      "https://www.instagram.com/aha.cd"
+    ]
+  }
+  </script>
 </head>
 <body>
 
@@ -66,26 +136,26 @@
     <!-- Draggable CDs scattered across the hero -->
     <div class="cd-scatter" id="cdScatter">
       <div class="draggable-image draggable" style="--cd-x: 75%; --cd-y: 20%;">
-        <img src="assets/computer.png" alt="Retro Apple II computer" draggable="false" class="img-medium">
+        <img src="assets/computer.png" alt="Old computer — no longer needed for CD digitizing in Highland Park" draggable="false" class="img-medium">
         <span class="cd-label">won't be using this</span>
       </div>
 
       <div class="draggable-image draggable" style="--cd-x: 12%; --cd-y: 18%;">
-        <img src="assets/cd-stack-photo.png" alt="Stack of CD jewel cases" draggable="false">
+        <img src="assets/cd-stack-photo.png" alt="Stack of CDs ready for digitizing — drop off in Highland Park or Pasadena" draggable="false">
         <span class="cd-label">bring us these</span>
       </div>
 
       <div class="draggable-image draggable" style="--cd-x: 78%; --cd-y: 52%;">
-        <img src="assets/rainbow-cd.png" alt="Rainbow CD disc" draggable="false" class="img-cd">
+        <img src="assets/rainbow-cd.png" alt="CD disc — aha.cd digitizes CDs and DVDs in Northeast LA" draggable="false" class="img-cd">
         <span class="cd-label">remember these?</span>
       </div>
 
       <div class="draggable-image draggable" style="--cd-x: 8%; --cd-y: 40%;">
-        <img src="assets/blue-cd.png" alt="Blue holographic CD" draggable="false" class="img-cd">
+        <img src="assets/blue-cd.png" alt="CD disc for digitizing service in Eagle Rock and Glendale" draggable="false" class="img-cd">
       </div>
 
       <div class="draggable-image draggable" style="--cd-x: 18%; --cd-y: 55%;">
-        <img src="assets/girl.png" alt="Girl holding box of CDs" draggable="false" class="img-person">
+        <img src="assets/girl.png" alt="Customer with CDs for local digitizing pickup in Mount Washington" draggable="false" class="img-person">
       </div>
     </div>
 
@@ -109,7 +179,7 @@
           </p>
         </div>
         <div class="about-visual">
-          <img src="assets/family.png" alt="Retro family wearing aha.cd t-shirts" class="about-image">
+          <img src="assets/family.png" alt="Family memories digitized from CD — local service in Highland Park and Pasadena" class="about-image">
         </div>
       </div>
     </div>
